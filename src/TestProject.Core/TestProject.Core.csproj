@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BuildApps.Core.Mobile.Configurations" Version="1.0.0" />
+    <PackageReference Include="BuildApps.Core.Mobile.Configurations" Version="1.0.1" />
     <PackageReference Include="BuildApps.Core.Mobile.Rest" Version="1.0.0" />
     <PackageReference Include="MvvmCross" Version="8.0.2" />
     <PackageReference Include="MvvmCross.Plugin.Messenger" Version="8.0.2" />

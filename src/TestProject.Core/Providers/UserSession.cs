@@ -1,7 +1,6 @@
-using BuildApps.Core.Mobile.Rest.Data;
-using BuildApps.Core.Mobile.Rest.Providers;
 using Xamarin.Essentials;
 using TestProject.Core.Common;
+using BuildApps.Core.Mobile.Configurations;
 
 namespace TestProject.Core.Providers
 {

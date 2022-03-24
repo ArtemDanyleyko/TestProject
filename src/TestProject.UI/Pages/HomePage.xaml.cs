@@ -1,4 +1,3 @@
-using System;
 using MvvmCross.Forms.Presenters.Attributes;
 using MvvmCross.Forms.Views;
 using TestProject.Core.ViewModels.Home;

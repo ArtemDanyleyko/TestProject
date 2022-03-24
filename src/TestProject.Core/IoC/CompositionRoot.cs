@@ -1,6 +1,5 @@
 using BuildApps.Core.Mobile.Configurations;
 using BuildApps.Core.Mobile.Rest;
-using BuildApps.Core.Mobile.Rest.Providers;
 using TestProject.Core.Providers;
 
 namespace TestProject.Core.IoC
