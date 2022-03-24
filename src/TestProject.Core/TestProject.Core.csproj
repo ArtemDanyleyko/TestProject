@@ -6,7 +6,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BuildApps.Core.Mobile.Configurations" Version="1.0.0" />
+    <PackageReference Include="BuildApps.Core.Mobile.Rest" Version="1.0.0" />
     <PackageReference Include="MvvmCross" Version="8.0.2" />
+    <PackageReference Include="MvvmCross.Plugin.Messenger" Version="8.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BuildApps.Core.Mobile.Common">
+      <HintPath>..\..\libs\BuildApps.Core.Mobile.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="BuildApps.Core.Mobile.FormsKit">
+      <HintPath>..\..\libs\BuildApps.Core.Mobile.FormsKit.dll</HintPath>
+    </Reference>
+    <Reference Include="BuildApps.Core.Mobile.MvvmCross">
+      <HintPath>..\..\libs\BuildApps.Core.Mobile.MvvmCross.dll</HintPath>
+    </Reference>
+    <Reference Include="BuildApps.Core.Mobile.MvvmCross.FormsKit">
+      <HintPath>..\..\libs\BuildApps.Core.Mobile.MvvmCross.FormsKit.dll</HintPath>
+    </Reference>
+    <Reference Include="BuildApps.Core.Mobile.Plugin.Connectivity">
+      <HintPath>..\..\libs\BuildApps.Core.Mobile.Plugin.Connectivity.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

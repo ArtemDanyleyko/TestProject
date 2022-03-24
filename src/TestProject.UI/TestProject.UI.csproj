@@ -20,53 +20,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Pages\HomePage.xaml.cs">
-      <DependentUpon>%(Filename)</DependentUpon>
-    </Compile>
-    <Compile Update="Resources\Colors.xaml.cs">
-      <DependentUpon>%(Filename)</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Pages\HomePage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
-    <None Update="Resources\Colors.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="MvvmCrossBindings\Target\" />
-    <Folder Include="Presentation\Abstract\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <Reference Include="BuildApps.Core.Mobile.Common">
+      <HintPath>..\..\libs\BuildApps.Core.Mobile.Common.dll</HintPath>
+    </Reference>
     <Reference Include="BuildApps.Core.Mobile.FormsKit">
-      <HintPath>bin\Debug\netstandard2.1\BuildApps.Core.Mobile.FormsKit.dll</HintPath>
+      <HintPath>..\..\libs\BuildApps.Core.Mobile.FormsKit.dll</HintPath>
     </Reference>
     <Reference Include="BuildApps.Core.Mobile.FormsUI.RatingControl">
-      <HintPath>bin\Debug\netstandard2.1\BuildApps.Core.Mobile.FormsUI.RatingControl.dll</HintPath>
+      <HintPath>..\..\libs\BuildApps.Core.Mobile.FormsUI.RatingControl.dll</HintPath>
     </Reference>
     <Reference Include="BuildApps.Core.Mobile.MvvmCross.FormsKit">
-      <HintPath>bin\Debug\netstandard2.1\BuildApps.Core.Mobile.MvvmCross.FormsKit.dll</HintPath>
+      <HintPath>..\..\libs\BuildApps.Core.Mobile.MvvmCross.FormsKit.dll</HintPath>
     </Reference>
-    <Reference Include="BuildApps.Core.Mobile.RatingControl">
-      <HintPath>bin\Debug\netstandard2.1\BuildApps.Core.Mobile.RatingControl.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="Controls\RatingControl.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
   </ItemGroup>
 
 </Project>
