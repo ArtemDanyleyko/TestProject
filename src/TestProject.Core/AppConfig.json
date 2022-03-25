@@ -1,0 +1,13 @@
+﻿ {
+  "Environment": "Dev",
+  "Configurations": [
+    {
+      "EnvironmentName": "Dev",
+      "ApiUrl": "https://sushishop.ru/api/"
+    },
+    {
+      "EnvironmentName": "Stage",
+      "ApiUrl": "https://"
+    }
+  ]
+}

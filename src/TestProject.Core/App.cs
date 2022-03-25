@@ -1,5 +1,6 @@
 using MvvmCross.IoC;
 using MvvmCross.ViewModels;
+using TestProject.Core.IoC;
 using TestProject.Core.ViewModels.Home;
 
 namespace TestProject.Core
@@ -8,6 +9,12 @@ namespace TestProject.Core
     {
         public override void Initialize()
         {
+            var compositionRoot = new CompositionRoot();
+
+            base.Initialize();
+
+            compositionRoot.Initialize();
+
             RegisterAppStart<HomeViewModel>();
         }
     }
